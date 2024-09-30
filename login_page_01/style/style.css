@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #E35869;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50rem;
+}
+
+.screen-page {
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    /* display: flex;
+    border-radius: 10px;
+    align-items: center; */
+}
+
+.screen-page h1 {
+    margin: 10px 20px;
+    font-size: 40px;
+}
+
+.login-box {
+    /* background-color: blue; */
+    height: 100%;
+    width: 100%;
+}
+
+.login-box input {
+    margin-left: 25px;
+    width: 80%;
+    border-radius: 5px;
+}   
+
+.email-box {
+    margin-bottom: 20px;
+}
+
+.forgot-password-box {
+    display: flex;
+    margin: 20px 30px;
+    justify-content: center;
+}
+
+
+.botton-register {
+    background-color: blue;
+    /* display: none; */
+    /* justify-content: center; */
+    /* margin: 0 100px; */
+}
